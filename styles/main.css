@@ -34,6 +34,7 @@
     color: #134074;
 }
 
+
 .logo {
     width: 90px;
 }
@@ -48,4 +49,16 @@ footer {
     bottom: 0;
     border: solid;
     box-sizing: border-box;
+
+.destineeisthebest{
+    color:red;
+    font-family: 'Sacramento', cursive;
+}
+.motto{
+       color:red;
+    font-family: 'Sacramento', cursive;
+}
+body{
+    color:black;
+
 }
