@@ -76,6 +76,7 @@ body{
     width: 90px;
 }
 
+
 footer {
     display: flex;
     padding: 10px 5px;
@@ -96,4 +97,5 @@ footer {
        color:red;
     font-family: 'Sacramento', cursive;
 }
+
 
