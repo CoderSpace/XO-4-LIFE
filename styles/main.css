@@ -1,6 +1,8 @@
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: darkred;
     padding: 1em;
     border: solid #0B2545;
     box-sizing: border-box;
@@ -12,7 +14,7 @@
     font-size: 1em;
     line-height: 3em;
     border-radius: 25px;
-    background-color: #EEF4ED;
+    background-color: yellow;
 }
 
 .nav-item a:link {
@@ -34,6 +36,41 @@
     color: #134074;
 }
 
+body{
+    background-color:black;
+    color:crimson;
+}
+
+
+
+
+.footerItem a:link {
+    text-decoration: none;
+    color: #0B2545;
+}
+
+.footerItem a:visited {
+    text-decoration: none;
+    color: #0B2545;
+}
+
+.footerItem a:active {
+    text-decoration: none;
+}
+
+.footerItema:hover {
+    text-decoration: none;
+    color: #134074;
+}
+
+.footerNav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color:darkred;
+    color: black;
+}
 
 .logo {
     width: 90px;
@@ -49,16 +86,14 @@ footer {
     bottom: 0;
     border: solid;
     box-sizing: border-box;
+}
 
 .destineeisthebest{
-    color:red;
+    color: red;
     font-family: 'Sacramento', cursive;
 }
 .motto{
        color:red;
     font-family: 'Sacramento', cursive;
 }
-body{
-    color:black;
 
-}
