@@ -2,7 +2,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: darkred;
+    background-color: red;
     padding: 1em;
     border: solid #0B2545;
     box-sizing: border-box;
@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
-    background-color:darkred;
+    background-color:red;
     color: black;
 }
 
@@ -86,7 +86,6 @@ footer {
     width: 100%;
     bottom: 0;
     border: solid;
-    box-sizing: border-box;
 }
 
 .destineeisthebest{
