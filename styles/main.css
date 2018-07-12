@@ -11,10 +11,12 @@ font-size: 1.3em;
 }
 
 .nav-item {
-    align-items:center;
+    
     padding: 0em 1em;
-    height: 3em;
+    height: 2em;
     font-size: 1em;
+    display:flex;
+    align-items:center;
     line-height: 3em;
     border-radius: 25px;
     background-color: yellow;
@@ -74,8 +76,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    width:10em;
-    height:9em;
+    width:15em;
+    height:12em;
 }
 
 
@@ -121,7 +123,9 @@ img{
 .footerItem{
     
     padding: 0em 1em;
-    height: 3em;
+    height: 2em;
+    display:flex;
+    align-items: center;
     font-size: 1em;
     line-height: 3em;
     border-radius: 25px;
