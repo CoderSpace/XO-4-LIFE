@@ -101,9 +101,21 @@ body {
     padding: 10px 5px;
     background-color: red;
     color: #0B2545;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     border: solid;
     box-sizing: border-box;
+}
+.aboutdestinee{
+    font-size:30.5px;
+     font-family: 'Sacramento', cursive; 
+}
+img{
+    height:500px;
+    
+}
+.aboutdestineec{
+    font-size:55px;
+      font-family: 'Sacramento', cursive;
 }
