@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Sacramento');
 
 .navbar {
+font-size: 1.3em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: red;
     padding: 1em;
-    
     box-sizing: border-box;
     margin-bottom: 1em;
 }
 
 .nav-item {
+    align-items:center;
     padding: 0em 1em;
     height: 3em;
     font-size: 1em;
@@ -39,7 +40,7 @@
 }
 
 .pageTitle {
-    font-size: 65px;
+    font-size: 100px;
     border: 10px;
     /*background-color: ;*/
     text-align: center;
@@ -58,6 +59,23 @@
 body {
     background-color: black;
     color: crimson;
+}
+.jname{
+    font-family: 'Bitter';
+    font-size:6em;
+    border:5em;
+    background-color:yellow;
+    color:red;
+    text-align: center;
+}
+
+.virgopic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:10em;
+    height:9em;
 }
 
 
@@ -82,23 +100,39 @@ body {
     color: #134074;
 }
 
-.footerNav {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 5px;
-    background-color: red;
-    color: black;
-}
 
 .logo {
-    width: 90px;
+    width: 5em; 
+    height: 3em;
+    padding: 0em 1em;
+    font-size: 1em;
+    line-height: 3em;
+    border-radius: 25px;
+    background-color: yellow;
 }
 
+img{
+    
+    width:4.5em;
+    height:2.8em;
+    
+}
+
+.footerItem{
+    
+    padding: 0em 1em;
+    height: 3em;
+    font-size: 1em;
+    line-height: 3em;
+    border-radius: 25px;
+    background-color: yellow;
+}
 
 .footerNav {
+    font-size:1.3em;
     display: flex;
-    padding: 10px 5px;
+    justify-content:space-around;
+    padding: 10px 10px;
     background-color: red;
     color: #0B2545;
     position: absolute;
@@ -106,4 +140,6 @@ body {
     bottom: 0;
     border: solid;
     box-sizing: border-box;
+    text-decoration: none;
+  
 }
