@@ -65,6 +65,11 @@ main {
 body {
   background-color: black;
   color: crimson;
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-bottom: 8em;
 }
 
 .janiyaname {
@@ -85,6 +90,20 @@ body {
   height: 12em;
 }
 
+.ourRules {
+  font-size: 4em;
+  color: red;
+  display:flex;
+  align-items:center;
+  
+}
+
+.rules {
+  font-size: 1.5em;
+  color: red;
+  display:flex;
+  align-items:center;
+}
 
 
 
@@ -116,24 +135,30 @@ body {
 .footerItem {
 
   padding: .5em 1em;
-  display: flex;
   border-radius: 25px;
   background-color: yellow;
 }
 
 .footerNav {
+
   margin-top: 1em;
   font-size: 1.3em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px 10px;
   background-color: red;
   color: #0B2545;
-  position: absolute;
-  width: 100%;
   bottom: 0;
   border: solid;
   box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
 }
 
 body {
@@ -183,7 +208,7 @@ li {
   padding: 0;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
   ul.nav li:not(:first-child) {
     display: none;
@@ -201,20 +226,20 @@ li {
   ul.nav.responsive li {
     display: block;
   }
-  
+
 }
-  
-  
-  
-  
-  
-  
-  .aboutdestineec {
-    font-size: 55px;
-    font-family: 'Sacramento', cursive;
-  }
-  
-  .aboutdestinee {
-    font-size: 30.5px;
-    font-family: 'Sacramento', cursive;
-  }
+
+
+
+
+
+
+.aboutdestineec {
+  font-size: 55px;
+  font-family: 'Sacramento', cursive;
+}
+
+.aboutdestinee {
+  font-size: 30.5px;
+  font-family: 'Sacramento', cursive;
+}
