@@ -217,9 +217,9 @@ li {
   ul.nav.responsive li {
     display: block;
   }
-  .aboutdestinee {
+  .aboutdestineec{
     font-size: 30.5px;
-    font-family: 'Sacramento', cursive;
+    font-family:'Sacramento', cursive;
   }
  
 
@@ -229,8 +229,11 @@ li {
     font-family: 'Sacramento', cursive;
   }
   .destineesimages{
-    height:500px;
-    width:500px;
     display:flex;
-    flex-direction:row;
+    /*flex-direction:row;*/
+  }
+  
+  .destineesimage {
+    width: 500px;
+    height: 500px; 
   }
