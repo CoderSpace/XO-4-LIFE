@@ -221,8 +221,7 @@ li {
     font-size: 30.5px;
     font-family: 'Sacramento', cursive;
   }
-  /*img {*/
-  /*  height: 500px;*/
+ 
 
   }
   .aboutdestineec {
@@ -230,6 +229,8 @@ li {
     font-family: 'Sacramento', cursive;
   }
   .destineesimages{
-    height:400px;
+    height:500px;
     width:500px;
+    display:flex;
+    flex-direction:row;
   }
