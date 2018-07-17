@@ -1,230 +1,231 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Sacramento');
 
 .nav {
-font-size: 1.3em;
-    display: flex;
-    justify-content: space-around;
-    background-color: red;
-    padding: 1em;
-    box-sizing: border-box;
-    margin-bottom: 1em;
-    align-items:center;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  padding: 1em;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  align-items: center;
 }
 
 .nav-item {
-    
-    padding: 0em 1em;
-    height: 2em;
-    font-size: 1em;
-    display:flex;
-    
-    line-height: 3em;
-    border-radius: 25px;
-    background-color: yellow;
+
+  padding: 0em 1em;
+  height: 2em;
+  font-size: 1em;
+  display: flex;
+  line-height: 3em;
+  border-radius: 25px;
+  background-color: yellow;
 }
 
 .nav-item a:link {
-    text-decoration: none;
-    color: #0B2545;
+  text-decoration: none;
+  color: #0B2545;
 }
 
 .nav-item a:visited {
-    text-decoration: none;
-    color: #0B2545;
+  text-decoration: none;
+  color: #0B2545;
 }
 
 .nav-item a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-item a:hover {
-    text-decoration: none;
-    color: #134074;
+  text-decoration: none;
+  color: #134074;
 }
 
 .pageTitle {
-    font-size: 100px;
-    border: 10px;
-    /*background-color: ;*/
-    text-align: center;
-    color: red;
-    font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  border: 10px;
+  /*background-color: ;*/
+  text-align: center;
+  color: red;
+  font-family: 'Sacramento', cursive;
 }
 
 .motto {
-    color: red;
-    font-family: 'Sacramento', cursive;
-    text-align: center;
-    font-size: 40px;
+  color: red;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 40px;
 
 }
 
 body {
-    background-color: black;
-    color: crimson;
-}
-.janiyaname{
-    font-family: 'Bitter';
-    font-size:6em;
-    border:5em;
-    background-color:yellow;
-    color:red;
-    text-align: center;
+  background-color: black;
+  color: crimson;
 }
 
-.virgopic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    width:15em;
-    height:12em;
+.janiyaname {
+  font-family: 'Bitter';
+  font-size: 6em;
+  border: 5em;
+  background-color: yellow;
+  color: red;
+  text-align: center;
+}
+
+.virgopic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 15em;
+  height: 12em;
 }
 
 
 
 
 .footerItem a:link {
-    text-decoration: none;
-    color: #0B2545;
+  text-decoration: none;
+  color: #0B2545;
 }
 
 .footerItem a:visited {
-    text-decoration: none;
-    color: #0B2545;
+  text-decoration: none;
+  color: #0B2545;
 }
 
 .footerItem a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footerItem a:hover {
-    text-decoration: none;
-    color: #134074;
+  text-decoration: none;
+  color: #134074;
 }
 
 
 .logo {
-    width: 5em; 
-    height: 3em;
-    padding: 0em 1em;
-    font-size: 1em;
-    line-height: 3em;
-    border-radius: 25px;
-    background-color: yellow;
-    display:flex;
-    justify-content:space-around;
+  width: 5em;
+  height: 3em;
+  padding: 0em 1em;
+  font-size: 1em;
+  line-height: 3em;
+  border-radius: 25px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
 }
 
-img{
-    
-    width:4.5em;
-    height:2.8em;
-    
+img {
+
+  width: 4.5em;
+  height: 2.8em;
+
 }
 
-.footerItem{
-    
-    padding: 0em 1em;
-    height: 2em;
-    display:flex;
-    align-items: center;
-    font-size: 1em;
-    line-height: 3em;
-    border-radius: 25px;
-    background-color: yellow;
+.footerItem {
+
+  padding: 0em 1em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  line-height: 3em;
+  border-radius: 25px;
+  background-color: yellow;
 }
 
 .footerNav {
-    font-size:1.3em;
-    display: flex;
-    justify-content:space-around;
-    padding: 10px 10px;
-    background-color: red;
-    color: #0B2545;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    border: solid;
-    box-sizing: border-box;
-    text-decoration: none;
-  
+  margin: 0;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+  background-color: red;
+  color: #0B2545;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border: solid;
+  box-sizing: border-box;
+  text-decoration: none;
+
 }
 
 body {
-  margin:0;
-  width:100%;
+  margin: 0;
+  width: 100%;
 }
 
 nav {
-  margin:0;
-  position:fixed;
+  margin: 0;
+  position: fixed;
 }
-<<<<<<< HEAD
-ul.nav {
-  margin:0;
-  list-style-type:none;
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  justify-content:space-around;
-  align-items:center;
-  background-color:red;
+
+<<<<<<< HEAD ul.nav {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
 }
 
 ul.nav li {
   /*font-size: 2em;*/
-  padding:0.5em;
+  padding: 0.5em;
 }
 
-.nav a { 
-  text-decoration:none;
-  color:white;
+.nav a {
+  text-decoration: none;
+  color: white;
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
+
 .icon {
-  display:none;
+  display: none;
 }
+
 .nav button {
-  background:none;
-  color:white;
-  border:none;
-  font-size:1em;
-  padding:0;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 0;
 }
 
 @media screen and (max-width:1035px) {
-  
-  ul.nav li:not(:first-child){
-    display:none;
+
+  ul.nav li:not(:first-child) {
+    display: none;
   }
-    ul.nav {
-      flex-direction:column;
-    }
-    
-    ul.nav li.icon{
-      display:block;
-      position:absolute;
-      top:0;
-      left:0;
-    }
-  ul.nav.responsive li{
-    display:block;
+  ul.nav {
+    flex-direction: column;
   }
-=======
-.aboutdestinee{
-    font-size:30.5px;
-     font-family: 'Sacramento', cursive; 
-}
-img{
-    height:500px;
-    
-}
-.aboutdestineec{
-    font-size:55px;
-      font-family: 'Sacramento', cursive;
->>>>>>> master
-}
+
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+  .aboutdestinee {
+    font-size: 30.5px;
+    font-family: 'Sacramento', cursive;
+  }
+  /*img {*/
+  /*  height: 500px;*/
+
+  }
+  .aboutdestineec {
+    font-size: 55px;
+    font-family: 'Sacramento', cursive;
+  }
