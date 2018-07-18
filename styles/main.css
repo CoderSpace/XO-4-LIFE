@@ -233,23 +233,31 @@ li {
   ul.nav.responsive li {
     display: block;
   }
-
+  
 }
 
 
 
+  .aboutdestineec{
+    font-size: 30.5px;
+    font-family:'Sacramento', cursive;
+  }
+ 
 
+  .aboutdestineec {
+    font-size: 55px;
+    font-family: 'Sacramento', cursive;
+  }
 
-
-.aboutdestineec {
-  font-size: 55px;
-  font-family: 'Sacramento', cursive;
-}
-
-.aboutdestinee {
-  font-size: 30.5px;
-  font-family: 'Sacramento', cursive;
-}
+  .destineesimages{
+    display:flex;
+    /*flex-direction:row;*/
+  }
+  
+  .destineesimage {
+    width: 500px;
+    height: 500px; 
+  }
 
 .janiyaname {
   font-family: 'Bitter';
@@ -268,4 +276,5 @@ li {
   width: 15em;
   height: 12em;
 }
+
 
