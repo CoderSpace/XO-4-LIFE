@@ -71,12 +71,31 @@ body {
   position: relative;
   padding-bottom: 8em;
 }
+.abouttitle{
+  display: block;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  
+}
+.musicvideos{
+  display:flex;
+  justify-content:space-around;
+}
+.drake{
+  border:solid white;
+}
+
+.future{
+  border:solid white;
+}
 
 .janiyaname {
   font-family: 'Bitter';
   font-size: 6em;
   border: 5em;
-  background-color: yellow;
+  /*background-color: yellow;*/
   color: red;
   text-align: center;
 }
