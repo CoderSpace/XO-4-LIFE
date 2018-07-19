@@ -250,13 +250,13 @@ body {
 
   .aboutdestineec{
     font-size: 30.5px;
-    font-family:'Sacramento', cursive;
+    font-family: 'Merienda', cursive;
   }
  
 
   .aboutdestineec {
     font-size: 55px;
-    font-family: 'Sacramento', cursive;
+   font-family: 'Merienda', cursive;
   }
 
   .destineesimages{
@@ -265,8 +265,9 @@ body {
   }
   
   .destineesimage {
-    width: 500px;
-    height: 500px; 
+    width: 350px;
+    height: 350px; 
+    flex-wrap:wrap;
   }
 
 .janiyaname {
