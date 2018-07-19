@@ -46,12 +46,13 @@
 }
 
 .pageTitle {
-  font-size: 100px;
+  font-size: 4em;
   border: 10px;
   /*background-color: ;*/
   text-align: center;
   color: red;
-  font-family: 'Cabin';
+  font-family: 'Cabin', sans-serif;
+
 }
 
 .motto {
@@ -71,30 +72,58 @@ main {
 body {
   background-color: black;
   color: red;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*main {*/
+
+/*  margin-left: 3em;*/
+
+/*  margin-right: 3em;*/
+
+/*  border: solid;*/
+
+/*  background: rgba(197, 197, 197,1);*/
+
+/*  padding: 1em;*/
+
+/*  min-height: 100vh;*/
+
+/*}*/
+
+body {
+  background-color: silver;
+  color: crimson;
   margin: 0;
   min-height: 100vh;
   width: 100%;
   position: relative;
-  padding-bottom: 8em;
 }
-.abouttitle{
+
+
+
+.abouttitle {
   display: block;
   text-align: center;
   font-size: 2.5em;
   margin-top: 1.5em;
   margin-bottom: 2em;
-  
+
 }
-.musicvideos{
+
+.musicvideos {
   display: flex;
   justify-content: space-around;
 }
-.drake{
-  border:solid white;
+
+.drake {
+  border: solid white;
 }
 
-.future{
-  border:solid white;
+.future {
+  border: solid white;
 }
 
 
@@ -103,18 +132,22 @@ body {
   color: red;
   display:flex;
   justify-content: center;
-  
+
 }
 
 li.ourRules {
   font-size: 1.5em;
   color: red;
+
 }
 .grouppic{
   width: 30em;
   height: 25em;
   display:flex;
   justify-content:center;
+  border: solid;
+  /*flex-wrap: wrap;*/
+  list-style-type: disc;
 }
 
 
@@ -144,7 +177,6 @@ li.ourRules {
 }
 
 .footerItem {
-
   padding: .5em .5em;
   border-radius: 5px;
   background-color: black;
@@ -152,7 +184,6 @@ li.ourRules {
 }
 
 .footerNav {
-  
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -166,16 +197,10 @@ li.ourRules {
   padding: 10px 10px;
   background-color: red;
   color: #0B2545;
-  border: solid;
+  /*border: solid;*/
   box-sizing: border-box;
 }
 
-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-
-}
 
 
 nav {
@@ -204,7 +229,6 @@ ul.nav li {
   color: white;
 }
 
-
 .icon {
   display: none;
   font-size: 2em;
@@ -216,6 +240,10 @@ ul.nav li {
   border: none;
   font-size: 1em;
   padding: 0;
+}
+
+.footText {
+  display: inline;
 }
 
 @media screen and (max-width:700px) {
@@ -235,31 +263,42 @@ ul.nav li {
   ul.nav.responsive li {
     display: block;
   }
-  
+  .footText {
+    display: none;
+  }
+
+}
+
+body {
+  padding-bottom: 3.2em;
+}
+
+.footerNav {
+  height: 3em;
 }
 
 
-
-  .aboutdestineec{
+  .aboutdestineec {
     font-size: 30.5px;
     font-family:'Cabin';
   }
  
 
-  .aboutdestineec {
-    font-size: 55px;
-    font-family: 'Cabin';
-  }
+.aboutdestineec {
+  font-size: 55px;
+  font-family: 'Merienda', cursive;
+}
 
-  .destineesimages{
-    display:flex;
-    /*flex-direction:row;*/
-  }
-  
-  .destineesimage {
-    width: 500px;
-    height: 500px; 
-  }
+.destineesimages {
+  display: flex;
+  /*flex-direction:row;*/
+}
+
+.destineesimage {
+  width: 350px;
+  height: 350px;
+  flex-wrap: wrap;
+}
 
 
 .janiyaname{
