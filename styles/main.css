@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Merienda');
 
 .nav {
   font-size: 1.3em;
@@ -20,11 +20,13 @@
   /*line-height: 3em;*/
   border-radius: 5px;
   background-color: black;
+  list-style: none;
 }
 
 .nav-item a:link {
   text-decoration: none;
   color: white
+  
 }
 
 .nav-item a:visited {
@@ -49,16 +51,15 @@
   /*background-color: ;*/
   text-align: center;
   color: red;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Cabin';
 }
 
 .motto {
   color: red;
-  font-family: 'Sacramento', cursive;
-  text-align: center;
+  font-family: 'Cabin';
   font-size: 40px;
-
 }
+
 
 main {
   margin: 1em;
@@ -69,7 +70,7 @@ main {
 
 body {
   background-color: black;
-  color: crimson;
+  color: red;
   margin: 0;
   min-height: 100vh;
   width: 100%;
@@ -85,8 +86,8 @@ body {
   
 }
 .musicvideos{
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .drake{
   border:solid white;
@@ -101,15 +102,19 @@ body {
   font-size: 4em;
   color: red;
   display:flex;
-  align-items:center;
+  justify-content: center;
   
 }
 
-.rules {
+li.ourRules {
   font-size: 1.5em;
   color: red;
+}
+.grouppic{
+  width: 30em;
+  height: 25em;
   display:flex;
-  align-items:center;
+  justify-content:center;
 }
 
 
@@ -199,9 +204,6 @@ ul.nav li {
   color: white;
 }
 
-li {
-  list-style: none;
-}
 
 .icon {
   display: none;
@@ -240,13 +242,13 @@ li {
 
   .aboutdestineec{
     font-size: 30.5px;
-    font-family:'Sacramento', cursive;
+    font-family:'Cabin';
   }
  
 
   .aboutdestineec {
     font-size: 55px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Cabin';
   }
 
   .destineesimages{
@@ -259,12 +261,11 @@ li {
     height: 500px; 
   }
 
-.janiyaname {
-  font-family: 'Bitter';
-  font-size: 6em;
-  border: 5em;
-  background-color: yellow;
-  color: red;
+
+.janiyaname{
+  font-family: 'Cabin';
+  font-size:5em; 
+  color:red;
   text-align: center;
 }
 
@@ -272,9 +273,21 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  width: 15em;
-  height: 12em;
+  width: 20em;
+  height: 20em;
 }
 
+.tilist{
+  font-size: 2.5em;
+  list-style-type: circle;
+  display: flex;
+  justify-content: center;
 
+}
+
+.jlist{
+  font-size: 2em;
+  list-style-type: circle;
+  /*display: flex;*/
+  text-align: center;
+}
