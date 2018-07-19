@@ -265,8 +265,19 @@ body {
   }
   
   .destineesimage {
+ saved version
     width: 500px;
     height: 500px; 
+
+  }
+
+  .destineesimages{
+
+    width: 350em;
+    height: 350em; 
+>>>>>>>>> local version
+    flex-wrap:wrap;
+>>>>>>>>> local version
   }
 
 .janiyaname {
