@@ -20,11 +20,13 @@
   /*line-height: 3em;*/
   border-radius: 5px;
   background-color: black;
+  list-style: none;
 }
 
 .nav-item a:link {
   text-decoration: none;
   color: white
+  
 }
 
 .nav-item a:visited {
@@ -50,9 +52,25 @@
   text-align: center;
   color: red;
   font-family: 'Cabin', sans-serif;
+
 }
 
 .motto {
+  color: red;
+  font-family: 'Cabin';
+  font-size: 40px;
+}
+
+
+main {
+  margin: 1em;
+  border: solid;
+  background: rgba(197, 197, 197,1);
+  padding: 1em;
+}
+
+body {
+  background-color: black;
   color: red;
   font-family: 'Cabin', sans-serif;
   text-align: center;
@@ -112,16 +130,21 @@ body {
 .ourRules {
   font-size: 4em;
   color: red;
-  display: flex;
-  align-items: center;
+  display:flex;
+  justify-content: center;
 
 }
 
-.rules {
+li.ourRules {
   font-size: 1.5em;
   color: red;
-  display: flex;
-  align-items: center;
+
+}
+.grouppic{
+  width: 30em;
+  height: 25em;
+  display:flex;
+  justify-content:center;
   border: solid;
   /*flex-wrap: wrap;*/
   list-style-type: disc;
@@ -206,10 +229,6 @@ ul.nav li {
   color: white;
 }
 
-li {
-  /*list-style: none;*/
-}
-
 .icon {
   display: none;
   font-size: 2em;
@@ -259,11 +278,11 @@ body {
 }
 
 
-.aboutdestineec {
-  font-size: 30.5px;
-  font-family: 'Merienda', cursive;
-}
-
+  .aboutdestineec {
+    font-size: 30.5px;
+    font-family:'Cabin';
+  }
+ 
 
 .aboutdestineec {
   font-size: 55px;
@@ -281,12 +300,11 @@ body {
   flex-wrap: wrap;
 }
 
-.janiyaname {
-  font-family: 'Bitter';
-  font-size: 6em;
-  border: 5em;
-  background-color: yellow;
-  color: red;
+
+.janiyaname{
+  font-family: 'Cabin';
+  font-size:5em; 
+  color:red;
   text-align: center;
 }
 
@@ -294,7 +312,21 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  width: 15em;
-  height: 12em;
+  width: 20em;
+  height: 20em;
+}
+
+.tilist{
+  font-size: 2.5em;
+  list-style-type: circle;
+  display: flex;
+  justify-content: center;
+
+}
+
+.jlist{
+  font-size: 2em;
+  list-style-type: circle;
+  /*display: flex;*/
+  text-align: center;
 }
