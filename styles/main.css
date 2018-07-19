@@ -255,8 +255,9 @@ li {
   }
   
   .destineesimage {
-    width: 500px;
-    height: 500px; 
+    width: 350px;
+    height: 350px; 
+    flex-wrap:wrap;
   }
 
 .janiyaname {
